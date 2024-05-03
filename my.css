@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box
+}
+
+i {
+    font-style: normal
+}
+
+body {
+    color: #333;
+    background: #eee;
+}
+
+.house {
+    text-align: center;
+}
+
+.house .tit {
+    padding: 6vh 0;
+    font-size: 40px;
+}
+
+.ct {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.ct.dd{
+    background: #fff;
+    border-radius: 10px;
+    padding: 0 15px;
+}
+.ct .tip{
+    padding-top: 15px;
+    color: #f60;
+    float: left;
+    font-size: 12px;
+}
+.ct h2{
+    padding: 15px 0;
+    border-bottom: solid 1px #ddd;
+    margin-bottom: 15px;
+    color: #f60;
+    position: relative;
+}
+.ct h2 i{
+    position: absolute;
+    left: 0;
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.ct ul {
+    width: calc(100% + 15px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ct li {
+    display: block;
+    width: 33.33%;
+    padding-right: 15px;
+    font-size: 16px;
+    padding-bottom: 15px;
+    color: #666;
+}
+
+.ct li div {
+    background: #fff;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 7px  rgba(0,0,0,.1);
+}
+
+.ct li div i {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    background: #f60;
+    color: #fff;
+    padding: 0 5px;
+}
+
+.ct .detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  padding-bottom: 15px;
+}
+
+.ct .detail .k {
+    width: 48%;
+}
+
+.ct .detail .k .ti {
+    background: #888;
+    color: #fff;
+    border-radius: 8px;
+    padding: 4px 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ct .detail .k dl dt {
+    background: #ddd;
+    border-radius: 8px;
+    color: #666;
+    padding: 4px 0;
+}
+
+.ct .detail .k dl dt.jt {
+    background: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+    padding: 0;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.red {
+    color: #f60;
+}
+.back{
+    cursor: pointer;
+    background: #f60;
+    color: #fff;
+    padding: 4px 8px;
+    width: fit-content;
+    margin:15px auto 0
+}
+@media screen and (max-width: 800px) {
+    .ct {
+        margin: 0 15px;
+    }
+
+
+    .ct ul {
+        width: 100%;
+    }
+
+    .ct li {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .ct .detail .k {
+        width: 100%;
+    }
+
+    .ct .status {
+        display: none;
+    }
+    .house .tit{
+        font-size: 26px;
+        padding-right: 15px;
+        padding-left: 15px;}
+
+}
+
